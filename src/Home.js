@@ -22,10 +22,10 @@ const Home = () => {
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-left justify-content-xxl-start mb-3 offset">
                         <div className="row">
                             <div className="col d-none d-md-block">
-                                <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
+                                <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
                             </div>
                         <div className="col">
-                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="resume.html" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
+                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="#" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
                         </div>
                     </div>
                         </div>
@@ -123,7 +123,7 @@ const Home = () => {
 
 
 
-        <section className="bg-white py-5" >
+        <section className="bg-white py-5" id="exchanges">
             <div className="container px-5">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-xxl-8">
