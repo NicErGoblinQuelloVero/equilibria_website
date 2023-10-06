@@ -4,7 +4,7 @@ import formaHome from "./assets/prova.svg"
 import coin from "./assets/0.png"
 import sectionShape from "./assets/sectionShape.svg"
 import logo from "./assets/xeqLogo.png"
-import imgHero from "./assets/prova2.png"
+import imgHero from "./assets/prova5.png"
 const Home = () => {
     
     return ( 
@@ -17,7 +17,7 @@ const Home = () => {
 
                     <div className="mb-6 mb-lg-0 mt-5 mt-lg-0 text-left text-lg-start offset-3 justify-content-left ">
                         <div className="col justify-content-left blockHome">
-                            <h1 className="fw-bolder titolo" style={{ color: "black", fontSize: "10rem" }}><span className="text d-inline">Equilibria</span></h1>
+                            <h1 className="fw-bolder titolo" style={{ color: "black", fontSize: "10rem",fontFamily:'Montserrat'}}><span className="text d-inline">Equilibria</span></h1>
                             <p className="fw display-6 titolo2"  style={{ color: "black", fontSize: "2rem" }}>The Private and Chain-Agnostic Oracle</p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-left justify-content-xxl-start mb-3 offset">
                         <div className="row">
