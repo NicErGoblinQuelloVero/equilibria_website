@@ -57,15 +57,15 @@ const Home = () => {
                 <div style={{ position: "relative", zIndex: "2" }}>
                 <div className="cards mx-auto">
                     <div className="row">
-                    <div className="col-md mb-5">
-                        <div className="card mx-auto" style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
+                    <div className="col-md-4 col-sm-6 mb-5">
+                        <div className="card mx-auto " style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
                                 <div className="card-header bg-white" style={{borderRadius:"25px",borderBottom:"none"}}>
                                     <h2 className="display-7 fw-bolder mt-3">Private</h2>
                                     
                                 </div>
                                 <div className="card-body " style={{height:"500px"}}>
                                     <img src={logo} style={{width:"6rem"}}></img>
-                                    <p className="card-text lead fw-light mb-4 mt-5">Equilibria is a privacy-focused cryptocurrency that originates from the Monero fork. 
+                                    <p className="card-text lead fw-light mb-4 mt-5 cardText ">Equilibria is a privacy-focused cryptocurrency that originates from the Monero fork. 
                                     Its primary feature lies in providing users with private and untraceable transactions, ensuring a high level of 
                                     confidentiality and security in the realm of digital currencies.</p>
                                  
@@ -75,14 +75,14 @@ const Home = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className="col-md mb-5">
+                    <div className="col-md-4 col-sm-6 mb-5">
                         <div className="card mx-auto" style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
                         <div className="card-header bg-white" style={{borderRadius:"25px",borderBottom:"none"}}>
                                     <h2 className="display-7 fw-bolder mt-3">Decentralized</h2>
                                 </div>
                                 <div className="card-body " style={{height:"500px"}}>
                                 <img src={logo} style={{width:"6rem"}}></img>
-                                    <p className="card-text lead fw-light mb-4 mt-5">Equilibria employs a sophisticated hybrid Proof of Work (PoW) and Proof of Stake (PoS) consensus algorithm, 
+                                    <p className="card-text lead fw-light mb-4 mt-5 cardText">Equilibria employs a sophisticated hybrid Proof of Work (PoW) and Proof of Stake (PoS) consensus algorithm, 
                                     a groundbreaking approach that not only validates transactions but also governs the Oracle Nodes, solidifying its status as 
                                     an innovative and versatile blockchain platform at the forefront of the cryptocurrency landscape.</p>
                                  
@@ -92,16 +92,16 @@ const Home = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className="col-md mb-5">
+                    <div className="col-md-4 col-sm-6 mb-5">
                         <div className="card mx-auto" style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
                         <div className="card-header bg-white" style={{borderRadius:"25px",borderBottom:"none"}}>
                                     <h2 className="display-7 fw-bolder mt-3">Versatile</h2>
                                 </div>
                                 <div className="card-body " style={{height:"500px"}}>
                                 <img src={logo} style={{width:"6rem"}}></img>
-                                    <p className="card-text lead fw-light mb-4 mt-5">Equilibria's oracle system distinguishes itself with its remarkable chain-agnostic capabilities, 
+                                    <p className="card-text lead fw-light mb-4 mt-5 cardText">Equilibria's oracle system distinguishes itself with its remarkable chain-agnostic capabilities, 
                                     demonstrating its versatility by delivering comprehensive solutions that span the realms of decentralized finance (DeFi) 
-                                    while also ensuring enhanced privacy for ERC-20 tokens, thus solidifying its reputation as a dynamic and innovative blockchain platform.</p>
+                                    while also ensuring enhanced privacy for ERC-20 tokens.</p>
                                  
                                 </div>
                                 <div className="card-footer bg-white mb-3" style={{borderRadius:"25px",borderTop:"none"}}>
@@ -112,15 +112,10 @@ const Home = () => {
                     </div>
                 </div>
                 </div>
-                <img src={sectionShape} style={{ position: "absolute", bottom: "-800px", left: "-850px", width: "100%" }} alt="Section Shape" />
+                <img src={sectionShape} className="sectionShape" alt="Section Shape" style={{ position: "absolute", bottom: "-800px", left: "-850px", width: "100%" }}  />
             </div>
         </section>
         
-
-
-
-
-
 
         <section className="bg-white py-5" id="exchanges">
             <div className="container px-5">
@@ -144,7 +139,7 @@ const Home = () => {
                                     </div>
                                     <div className="col-md">
                                     <div className="card mt-4"  style={{border:"none"}}>
-                                        <img src={nonkyc}></img>
+                                        <img src={nonkyc} ></img>
                                         <div className="card-body">
                                             <h2 className="fw-light mb-4 ">NonKYC</h2>
                                             <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="projects.html">Buy now</a>
