@@ -15,21 +15,20 @@ const Home = () => {
             <div className="row gx-5 align-items-center">
                 <div className="col-lg-6 col-md-12 prova">
 
-                    <div className="mb-6 mb-lg-0 mt-5 mt-lg-0 text-left text-lg-start offset-3 justify-content-left ">
-                        <div className="col justify-content-left blockHome">
-                            <h1 className="fw-bolder titolo" style={{ color: "black", fontSize: "10rem",fontFamily:'Montserrat'}}><span className="text d-inline">Equilibria</span></h1>
+                    <div className="mb-6 mb-lg-0 mt-5 mt-lg-0 text-left text-lg-start offset-3 justify-content-left " >
+                        <div className="col justify-content-left blockHome" >
+                            <h1 className="fw-bolder titolo d-none d-sm-block" style={{ color: "black", fontSize: "10rem",fontFamily:'Montserrat'}}><span className="text d-inline">Equilibria</span></h1>
                             <p className="fw display-6 titolo2"  style={{ color: "black", fontSize: "2rem" }}>The Private and Chain-Agnostic Oracle</p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-left justify-content-xxl-start mb-3 offset">
-                        <div className="row">
-                            <div className="col d-none d-md-block">
-                                <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
-                            </div>
-                        <div className="col">
-                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="#" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
-                        </div>
-                    </div>
-                        </div>
-                        
+                                <div className="row">
+                                    <div className="col d-none d-md-block">
+                                        <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
+                                    </div>
+                                    <div className="col" style={{textAlign:'left'}}>
+                                        <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="#" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
+                                    </div>
+                                </div>
+                            </div>       
                     </div>
 
                 
