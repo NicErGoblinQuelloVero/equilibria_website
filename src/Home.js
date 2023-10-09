@@ -57,7 +57,7 @@ const Home = () => {
                 <div style={{ position: "relative", zIndex: "2" }}>
                 <div className="cards mx-auto">
                     <div className="row">
-                    <div className="col-md-4 col-sm-6 mb-5">
+                    <div className="col-md-4 col-sm-6 mb-4">
                         <div className="card mx-auto " style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
                                 <div className="card-header bg-white" style={{borderRadius:"25px",borderBottom:"none"}}>
                                     <h2 className="display-7 fw-bolder mt-3">Private</h2>
@@ -75,7 +75,7 @@ const Home = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 mb-5">
+                    <div className="col-md-4 col-sm-6 mb-4">
                         <div className="card mx-auto" style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
                         <div className="card-header bg-white" style={{borderRadius:"25px",borderBottom:"none"}}>
                                     <h2 className="display-7 fw-bolder mt-3">Decentralized</h2>
@@ -92,7 +92,7 @@ const Home = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 mb-5">
+                    <div className="col-md-4 col-sm-6 mb-4">
                         <div className="card mx-auto" style={{ borderRadius: "25px", border: "none", boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>
                         <div className="card-header bg-white" style={{borderRadius:"25px",borderBottom:"none"}}>
                                     <h2 className="display-7 fw-bolder mt-3">Versatile</h2>
@@ -117,7 +117,7 @@ const Home = () => {
         </section>
         
 
-        <section className="bg-white py-5" id="exchanges">
+        <section className="bg-white py-5 mt-2" id="exchanges">
             <div className="container px-5">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-xxl-8">
@@ -127,7 +127,7 @@ const Home = () => {
                                 <div className="row">
                                     <div className="col-md">
                                         <div className="card mt-4" style={{border:"none"}}>
-                                        <img src={tradeOgre}></img>
+                                        <img src={tradeOgre}  style={{width:'85%'}} className="mx-auto"></img>
                                             <div className="card-body">
                                                 <h2 className="fw-light mb-4">Trade Ogre</h2>
                                                 <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="projects.html">Buy now</a>
@@ -139,7 +139,7 @@ const Home = () => {
                                     </div>
                                     <div className="col-md">
                                     <div className="card mt-4"  style={{border:"none"}}>
-                                        <img src={nonkyc} ></img>
+                                        <img src={nonkyc} style={{width:'85%'}} className="mx-auto"></img>
                                         <div className="card-body">
                                             <h2 className="fw-light mb-4 ">NonKYC</h2>
                                             <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="projects.html">Buy now</a>
