@@ -13,9 +13,9 @@ const Home = () => {
     <header className="masthead" style={{overflow:"hidden"}}>
         <div className="container-fluid">
             <div className="row gx-5 align-items-center">
-                <div className="col-lg-6 col-md-12 prova">
+                <div className="col-lg-6 col-md-12 prova" style={{ zIndex: 1}}>
 
-                    <div className="mb-6 mb-lg-0 mt-5 mt-lg-0 text-left text-lg-start offset-3 justify-content-left " >
+                    <div className="mb-6 mb-lg-0 mt-5 mt-lg-0 text-left text-lg-start offset-3 justify-content-left" >
                         <div className="col justify-content-left blockHome" >
                             <h1 className="fw-bolder titolo d-none d-sm-block" style={{ color: "black", fontSize: "10rem",fontFamily:'Montserrat'}}><span className="text d-inline">Equilibria</span></h1>
                             <p className="fw display-6 titolo2"  style={{ color: "black", fontSize: "2rem" }}>The Private and Chain-Agnostic Oracle</p>
@@ -37,7 +37,7 @@ const Home = () => {
 
                 <div className="col-lg-6">
                     <div className="masthead-device-mockup">
-                        <img src={imgHero} alt="Hero Image" className="img-fluid" style={{ zIndex: 0, width: "100%", marginRight:"-20px"}} />
+                        <img src={imgHero} alt="Hero Image" id="animated-image" className="img-fluid " style={{ zIndex: -1, width: "100%", marginRight:"-20px"}} />
                     </div>
                 </div>
             </div>
