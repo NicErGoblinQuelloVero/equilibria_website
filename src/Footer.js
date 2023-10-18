@@ -9,10 +9,10 @@ const Footer = () => {
                     <img src={xeqLogo} style={{width:"50px"}}/>
                     <h3>Follow Us</h3>
                     <div className="d-flex fs-2 gap-3">
-                    <a className="text-black" href="#!"><i class="bi bi-telegram"></i></a>
-                    <a className="text-black" href="#!"><i class="bi bi-youtube"></i></a>
-                    <a className="text-black" href="#!"><i class="bi bi-reddit"></i></a>
-                    <a className="text-black" href="#!"><i class="bi bi-x"></i></a>
+                    <a className="text-black" href="#!"><i className="bi bi-telegram"></i></a>
+                    <a className="text-black" href="#!"><i className="bi bi-youtube"></i></a>
+                    <a className="text-black" href="#!"><i className="bi bi-reddit"></i></a>
+                    <a className="text-black" href="#!"><i className="bi bi-x"></i></a>
                 </div>
                 </div>
                 <div className="col mb-3" style={{textAlign:'left',marginLeft:"20px"}} >
