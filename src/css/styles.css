@@ -180,7 +180,21 @@ h2, .h2 {
 
 }
 
+@media (max-width: 1700px) {
+  .titolo{
+    font-size: 7rem !important; 
+  }
+  .titolo2{
+    font-size: 1.5rem !important; 
+  }
+  .socialFooter{
+    margin-left: 20px !important;
+  }
+  .cardText{
+    font-size: 1.2rem !important;
+  }
 
+}
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
