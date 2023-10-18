@@ -141,46 +141,15 @@ h2, .h2 {
 }
 
 
-
-
 .prova{
   position: relative;
   margin-top: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
    .prova {
     margin-top: -150px !important;
   }
-  
-}
-@media (max-width: 860px) {
-  .titolo{
-    font-size: 4.3rem !important; 
-  }
-  .titolo2{
-    text-align: left;
-    font-family: 'Montserrat';
-    font-size: 2.4rem !important;
-    margin-left: 20px;
-  }
-  .buttonHome{
-    margin-left: 20px;
-  }
-  .blockHome{
-   
-    margin-left: -100px;
-  }
-  .socialFooter{
-    margin-left: 20px !important;
-  }
-  .cardText{
-    font-size: 1.2rem !important;
-  }
-
-}
-
-@media (max-width: 1700px) {
   .titolo{
     font-size: 7rem !important; 
   }
@@ -193,8 +162,34 @@ h2, .h2 {
   .cardText{
     font-size: 1.2rem !important;
   }
+  
+}
+@media (max-width: 860px) {
+  .titolo{
+    font-size: 4.3rem !important; 
+  }
+  .titolo2{
+    text-align: left !important;
+    font-family: 'Montserrat' ;
+    font-size: 2.4rem ;
+    margin-left: 20px !important;
+  }
+  .buttonHome{
+    margin-left: 20px !important; 
+  }
+  .blockHome{
+   
+    margin-left: -100px !important;
+  }
+  .socialFooter{
+    margin-left: 20px !important;
+  }
+  .cardText{
+    font-size: 1.2rem !important;
+  }
 
 }
+
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
