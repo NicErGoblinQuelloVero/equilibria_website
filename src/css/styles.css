@@ -34,16 +34,17 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1e30f3;
-  --bs-secondary: #e21e80;
+  --bs-primary: #ffffff;
+  --bs-secondary: #3BC7FF;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+
   --bs-primary-rgb: 30, 48, 243;
-  --bs-secondary-rgb: 226, 30, 128;
+  --bs-secondary-rgb: 59, 199, 255;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -155,6 +156,7 @@ h2, .h2 {
   
 }
 
+
 @media (max-width: 1700px) {
   .titolo{
     font-size: 7rem !important; 
@@ -170,15 +172,79 @@ h2, .h2 {
   }
 
 }
-
-@media (max-width: 860px) {
+@media (max-width: 990px) {
+  .bottoneCard{
+    width: 150px;
+    height: 50px;
+    margin-top: -20px;
+  }
+  .cText{
+    font-size: 0.8rem;
+    margin-top: -10px;
+  }
+  .inizio{
+    margin-top: -50px;
+  }
+  .profile{
+    margin-top: -50px !important;
+  }
   .titolo{
-    font-size: 4.3rem !important; 
+    text-align: left !important;
+    font-size: 3.7rem !important; 
   }
   .titolo2{
     text-align: left !important;
     font-family: 'Montserrat' !important;
-    font-size: 2.2rem !important;
+    font-size: 1.0rem !important;
+  }
+
+  .cardText{
+    font-size: 0.9rem !important;
+  }
+  
+   .profile-img.shape{
+      width: 180%;
+      height: auto !important;
+     
+   }
+   .profile-img.float-animation{
+    
+      width: 160%;
+      height: auto !important;
+    }
+}
+
+@media (max-width: 572px) {
+
+  .cardHome{
+    width: 85%;
+    height: 500px;
+  }
+
+  .bottoneCard{
+    width: 200px;
+    height: 60px;
+    margin-top: -100px;
+  }
+  .cText{
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+  .inizio{
+    
+    margin-top: 0px;
+   
+  }
+  .profile{
+    margin-top: 0px !important;
+  }
+  .titolo{
+    font-size: 2.3rem !important; 
+  }
+  .titolo2{
+    text-align: left !important;
+    font-family: 'Montserrat' !important;
+    font-size: 2.0rem !important;
     margin-left: 20px !important;
   }
   .buttonHome{
@@ -192,9 +258,18 @@ h2, .h2 {
     margin-left: 20px !important;
   }
   .cardText{
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
   }
-
+  .profile-img.float-animation{
+    margin-left: -40%;
+    width: 120%;
+    height: 120% !important; 
+   }
+   .profile-img.shape{
+     margin-left: 40px; 
+     width: 110%;
+     height: 110% !important;
+    }
 }
 
 
@@ -11617,8 +11692,8 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: #ffffff;
+  background: linear-gradient(135deg, #3BC7FF 0%, #3BC7FF 100%);
 }
 
 .text-gradient {
@@ -11648,6 +11723,7 @@ html {
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+ 
 }
 .profile .profile-img {
   height: 80vw;
