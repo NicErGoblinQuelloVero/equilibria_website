@@ -14,7 +14,7 @@ function Card (props){
                             {props.text}</p>
                         </div>
                         <div className="card-footer bg-white mb-3" style={{borderRadius:"25px",borderTop:"none"}}>
-                        <a className="btn btn-primary btn-lg px-5 py-3 fw-bolder bottoneCard " href="projects.html"><p className="cText">Learn more</p></a>
+                        <a className="btn btn-primary btn-lg px-5 py-3 fw-bolder bottoneCard " href="https://github.com/EquilibriaCC/Equilibria/wiki"><p className="cText">Learn more</p></a>
                         </div>
                     </div>
         </div>

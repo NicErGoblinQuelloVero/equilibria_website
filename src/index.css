@@ -31,7 +31,7 @@ code {
     transform: translateY(0) translateX(0); /* Muovi solo lungo l'asse Y */
   }
   50% {
-    transform: translateY(10px); /* Muovi verso l'alto di 10px */
+    transform: translateY(12px); /* Muovi verso l'alto di 10px */
   }
 }
 

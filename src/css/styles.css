@@ -172,6 +172,21 @@ h2, .h2 {
   }
 
 }
+@media (max-width: 1397px) {
+  .titolo{
+    font-size: 7% !important; 
+    text-align: left;
+  }
+  .titolo2{
+    font-size: 1.5rem !important; 
+    text-align: left;
+  }
+  
+  .cardText{
+    font-size: 1.2rem !important;
+  }
+
+}
 @media (max-width: 990px) {
   .bottoneCard{
     width: 150px;

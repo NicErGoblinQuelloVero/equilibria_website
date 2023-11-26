@@ -41,10 +41,10 @@ const Home = () => {
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-left justify-content-xxl-start offset">
                         <div className="row">
                         <div className="col d-none d-md-block">
-                            <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
+                            <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://explorer.equilibriacc.com/" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
                         </div>
                         <div className="col" style={{textAlign:'left'}}>
-                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="#" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
+                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="https://github.com/EquilibriaCC/Equilibria/wiki" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
                         </div>
                         </div>
                     </div>
@@ -77,7 +77,9 @@ const Home = () => {
                 <div className="cards mx-auto" >
                 <div className="row">
                     <div className="col-md-4 col-sm-6 mb-4">
-                        <Card title="Private" text="Equilibria, a privacy-focused cryptocurrency stemming from the Monero fork, places significant emphasis on private and untraceable transactions, ensuring an elevated level of confidentiality and security within the dynamic landscape of digital currencies for user protection and financial privacy"/>    
+                        <Card title="Private" text="Equilibria, a privacy-focused cryptocurrency stemming from the Monero fork,
+                         places significant emphasis on private and untraceable transactions, ensuring an elevated level of confidentiality 
+                         and security within the dynamic landscape of digital currencies for user protection and financial privacy"/>    
                     </div>
                     <div className="col-md-4 col-sm-6 mb-4 ">
                         <Card title="Decentralized" text="Equilibria employs a sophisticated hybrid Proof of Work (PoW) and Proof of 
@@ -86,7 +88,9 @@ const Home = () => {
                         cryptocurrency landscape."/>
                     </div>
                     <div className="col-md-4 col-sm-6 mb-4 ">
-                        <Card title="Versatile" text="Equilibria's oracle system stands out with remarkable chain-agnostic capabilities, showcasing its versatility through comprehensive solutions in decentralized finance (DeFi). Simultaneously, it ensures an added layer of privacy for ERC-20 tokens, further enhancing its position in the evolving cryptocurrency ecosystem."/>
+                        <Card title="Versatile" text="Equilibria's oracle system stands out with remarkable chain-agnostic capabilities, 
+                        showcasing its versatility through comprehensive solutions in decentralized finance (DeFi). Simultaneously, it ensures an 
+                        added layer of privacy for ERC-20 tokens, further enhancing its position in the evolving cryptocurrency ecosystem."/>
                     </div>
                 </div>
                 </div>
@@ -110,7 +114,7 @@ const Home = () => {
                         <img src={tradeOgre} style={{width:'85%'}} className="mx-auto"></img>
                         <div className="card-body">
                             <h2 className="fw-light mb-4">Trade Ogre</h2>
-                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="projects.html">Buy now</a>
+                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="https://tradeogre.com/exchange/XEQ-BTC">Buy now</a>
                         </div>
                         </div>
                     </div>
@@ -120,7 +124,7 @@ const Home = () => {
                         <img src={nonkyc} style={{width:'85%'}} className="mx-auto"></img>
                         <div className="card-body">
                             <h2 className="fw-light mb-4 ">NonKYC</h2>
-                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="projects.html">Buy now</a>
+                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="https://nonkyc.io/market/XEQ_BTC">Buy now</a>
                         </div>
                         </div>
                     </div>
