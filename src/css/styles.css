@@ -165,7 +165,19 @@ h2, .h2 {
     font-size: 0.9rem;
     margin-top: -5px;
   }
+  .loghi{
+    transition: transform 0.3s ease;
+  }
+  .loghi:hover{
+    transform: scale(1.2);
+  }
+  .inc {
+    transition: transform 0.3s ease-in-out !important;
+  }
 
+  .inc:hover {
+    transform: scale(1.1);
+  }
 }
 @media (max-width: 1700px) {
   .titolo{
@@ -237,13 +249,31 @@ h2, .h2 {
       width: 160%;
       height: auto !important;
     }
+    
 }
 
 @media (max-width: 572px) {
-
+  
+  .loghi{
+    width: 100% !important;
+  }
+ 
+  .carousel-control-prev{
+    margin-top: 60px !important;
+    margin-left: -5px !important;
+    width: 10px  !important;
+  }
+  .carousel-control-next{
+    margin-top: 60px !important;
+    margin-right: -5px !important;
+    width: 10px  !important;
+  }
   .cardHome{
     width: 85%;
     height: 500px;
+  }
+  .cardTeam{
+    width: 100% !important;
   }
 
   .bottoneCard{

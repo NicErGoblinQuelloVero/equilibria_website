@@ -4,8 +4,19 @@ import nonkyc from "./assets/nonkyclogoicon.png"
 import tradeOgre from "./assets/tradeOgre.png"
 import coin from "./assets/coin2.png"
 import sectionShape from "./assets/sectionShape.svg"
+import sectionShape2 from "./assets/s02.svg"
 import imgHome from "./assets/4o.png"
 import Card from "./Card"
+import CardTeam from "./CardTeam"
+import TeamCarousel from "./TeamCarousel"
+
+
+import x from "./assets/x.png"
+import discord from "./assets/discord.png"
+import telgram from "./assets/telegram.png"
+
+
+
 const Home = () => {
     useEffect(() => {
         const handleScroll = () => {
@@ -41,10 +52,10 @@ const Home = () => {
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-left justify-content-xxl-start offset">
                         <div className="row">
                         <div className="col d-none d-md-block">
-                            <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://explorer.equilibriacc.com/" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
+                            <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder inc" href="https://explorer.equilibriacc.com/" style={{boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Explorer</a>
                         </div>
                         <div className="col" style={{textAlign:'left'}}>
-                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome" href="https://github.com/EquilibriaCC/Equilibria/wiki" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
+                            <a className="btn btn-outline-dark btn-lg px-4 py-3 me-sm-3 fs-6 fw-bolder buttonHome inc" href="https://github.com/EquilibriaCC/Equilibria/wiki" style={{border:"none",boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.1)" }}>Documentation</a>
                         </div>
                         </div>
                     </div>
@@ -98,8 +109,76 @@ const Home = () => {
             <img src={sectionShape} className="sectionShape" alt="Section Shape" style={{ position: "absolute", bottom: "-800px", left: "-850px", width: "100%" }} />
             </div>
         </section>
-   
-        <section className="bg-white py-5 mt-2" id="exchanges">
+        <section className="bg-white py-5 mt-2" >
+        <div className="container px-5">
+            <div className="row gx-5 justify-content-center">
+            <div className="col-xxl-8">
+                <div className="text-center my-5">
+                <h2 className="display-4 fw-bolder mb-5">
+                    <span className="text d-inline">Follow Us</span>
+                </h2>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <div className="card " style={{ border: "none" }}>
+                                <a href=" https://t.me/EquilibriaCommunity">
+                           
+                                <img src={telgram} style={{ width: '70%' }} className="mx-auto loghi" alt="Telegram"></img>
+                                </a>
+                                <div className="card-body">
+                              
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+
+                            <div className="card " style={{ border: "none" }}>
+                           
+                                <a href=" https://discord.com/invite/Ps9pBmc2QX">
+                                    <img src={discord} style={{ width: '70%' }} className="mx-auto loghi" alt="Telegram"></img>
+                                </a>
+                                <div className="card-body">
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card" style={{ border: "none" }}>
+                                <a href="https://twitter.com/EquilibriaDevs">
+                                    <img src={x} style={{ width: '70%' }} className="mx-auto loghi" alt="Telegram"></img>
+                                </a>
+                                <div className="card-body">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                   
+                </div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section className="bg-light py-5" id="exchanges" style={{height:"900px",overflow:"hidden"}}>
+       
+            <div>
+                <div className="cards mx-auto" style={{marginTop:"-100px"}}>
+                
+                    <TeamCarousel></TeamCarousel>
+                    </div>
+                    <img src={sectionShape2} className="sectionShape" alt="Section Shape"  style={{zIndex:"1", marginTop:"-650px",marginLeft:"800px",width:"70%"}}/>
+        </div>
+     
+        </section>
+
+        
+
+        <section className="bg-white py-5" id="exchanges">
         <div className="container px-5">
             <div className="row gx-5 justify-content-center">
             <div className="col-xxl-8">
@@ -114,7 +193,7 @@ const Home = () => {
                         <img src={tradeOgre} style={{width:'85%'}} className="mx-auto logoExchange"></img>
                         <div className="card-body">
                             <h2 className="fw-light mb-4">Trade Ogre</h2>
-                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="https://tradeogre.com/exchange/XEQ-BTC">Buy now</a>
+                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder inc bottoneCard" href="https://tradeogre.com/exchange/XEQ-BTC"><p className="cText">Buy now</p></a>
                         </div>
                         </div>
                     </div>
@@ -124,7 +203,7 @@ const Home = () => {
                         <img  src={nonkyc} style={{width:'85%'}} className="mx-auto logoExchange"></img>
                         <div className="card-body">
                             <h2 className="fw-light mb-4 ">NonKYC</h2>
-                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="https://nonkyc.io/market/XEQ_BTC">Buy now</a>
+                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder inc bottoneCard" href="https://nonkyc.io/market/XEQ_BTC"><p className="cText">Buy now</p></a>
                         </div>
                         </div>
                     </div>
@@ -135,6 +214,9 @@ const Home = () => {
             </div>
         </div>
         </section>
+
+
+
     </main>
 
      );
