@@ -111,7 +111,7 @@ const Home = () => {
                     <div className="row">
                     <div className="col-md">
                         <div className="card mt-4" style={{border:"none"}}>
-                        <img src={tradeOgre} style={{width:'85%'}} className="mx-auto"></img>
+                        <img src={tradeOgre} style={{width:'85%'}} className="mx-auto logoExchange"></img>
                         <div className="card-body">
                             <h2 className="fw-light mb-4">Trade Ogre</h2>
                             <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="https://tradeogre.com/exchange/XEQ-BTC">Buy now</a>
@@ -121,7 +121,7 @@ const Home = () => {
                     <div className="col-md"></div>
                     <div className="col-md">
                         <div className="card mt-4" style={{border:"none"}}>
-                        <img src={nonkyc} style={{width:'85%'}} className="mx-auto"></img>
+                        <img  src={nonkyc} style={{width:'85%'}} className="mx-auto logoExchange"></img>
                         <div className="card-body">
                             <h2 className="fw-light mb-4 ">NonKYC</h2>
                             <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder" href="https://nonkyc.io/market/XEQ_BTC">Buy now</a>

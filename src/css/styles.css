@@ -142,8 +142,6 @@ h2, .h2 {
 }
 
 
-
-
 .prova{
   position: relative;
   margin-top: 0;
@@ -156,7 +154,19 @@ h2, .h2 {
   
 }
 
+@media (max-width: 2000px) {
+ 
+  .bottoneCard{
+    width: 180px;
+    height: 50px;
 
+  }
+  .cText{
+    font-size: 0.9rem;
+    margin-top: -5px;
+  }
+
+}
 @media (max-width: 1700px) {
   .titolo{
     font-size: 7rem !important; 
@@ -174,7 +184,7 @@ h2, .h2 {
 }
 @media (max-width: 1397px) {
   .titolo{
-    font-size: 7% !important; 
+    font-size: 6rem !important; 
     text-align: left;
   }
   .titolo2{
@@ -183,9 +193,9 @@ h2, .h2 {
   }
   
   .cardText{
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
-
+ 
 }
 @media (max-width: 990px) {
   .bottoneCard{
@@ -276,15 +286,18 @@ h2, .h2 {
     font-size: 1rem !important;
   }
   .profile-img.float-animation{
-    margin-left: -40%;
-    width: 120%;
-    height: 120% !important; 
-   }
-   .profile-img.shape{
-     margin-left: 40px; 
-     width: 110%;
-     height: 110% !important;
-    }
+  margin-left: -40%;
+  width: 120%;
+  height: 120% !important; 
+  }
+  .profile-img.shape{
+    margin-left: 40px; 
+    width: 110%;
+    height: 110% !important;
+  }
+  .logoExchange{
+    width: 75% !important;
+  }
 }
 
 
