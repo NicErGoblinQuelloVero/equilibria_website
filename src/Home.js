@@ -164,14 +164,14 @@ const Home = () => {
             </div>
         </div>
         </section>
-        <section className="bg-light py-5" id="exchanges" style={{height:"900px",overflow:"hidden"}}>
+        <section className="bg-light py-5 teamSection" id="exchanges" style={{height:"900px",overflow:"hidden"}}>
        
             <div>
                 <div className="cards mx-auto" style={{marginTop:"-100px"}}>
                 
                     <TeamCarousel></TeamCarousel>
                     </div>
-                    <img src={sectionShape2} className="sectionShape" alt="Section Shape"  style={{zIndex:"1", marginTop:"-650px",marginLeft:"800px",width:"70%"}}/>
+                    <img src={sectionShape2} className="sectionShape2" alt="Section Shape"  style={{zIndex:"1", marginTop:"-750px",marginLeft:"1000px",width:"70%"}}/>
         </div>
      
         </section>

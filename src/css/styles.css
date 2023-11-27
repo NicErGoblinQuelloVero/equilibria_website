@@ -207,6 +207,9 @@ h2, .h2 {
   .cardText{
     font-size: 1.1rem !important;
   }
+  .loghi{
+    width: 50% !important;
+  }
  
 }
 @media (max-width: 990px) {
@@ -254,6 +257,14 @@ h2, .h2 {
 
 @media (max-width: 572px) {
   
+  .sectionShape2{
+    margin-top: -600px !important;
+    margin-left: -50px !important;
+    width: 1000px !important;
+  }
+  .teamSection{
+    height: 700px !important;
+  }
   .loghi{
     width: 100% !important;
   }
