@@ -6,7 +6,7 @@ const TeamCarousel = () => {
   const isDesktopView = window.innerWidth >= 572;
 
   return (
-    <section className="bg-light py-5 " id="exchanges">
+    <section className="bg-light py-5 " >
       <div className="container px-5">
         <div className="row gx-5 justify-content-center">
           <div className="col-xxl-8">

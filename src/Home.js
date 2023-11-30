@@ -18,6 +18,7 @@ import telgram from "./assets/telegram.png"
 
 
 const Home = () => {
+
     useEffect(() => {
         const handleScroll = () => {
           const cards = document.querySelectorAll(".animated-card");
@@ -41,14 +42,15 @@ const Home = () => {
     return ( 
         <main className="flex-shrink-0">
             <header className="py-5 inizio" style={{ overflow: "hidden", position: "relative" }}>
-            <div className="container px-3 pb-5">
+            <div className="container px-5 pb-5">
                 <div className="row gx-3 align-items-center">
-                <div className="col-12 col-md-8 col-sm-8">
-                    <div className="text-center text-xxl-start">
+        
+                <div className="col-12 col-md-8  col-sm-8">
+                    <div className="text-center text-xxl-start sas">
                     <h1 className="fw-bolder titolo d-none d-sm-block" style={{ color: "black", fontSize: "8rem",fontFamily:'Montserrat'}}>
                         <span className="text d-inline">Equilibria</span>
                     </h1>
-                    <p className="fw display-6 titolo2" style={{ color: "black", fontSize: "2rem" }}>The Private and Chain-Agnostic Oracle</p>
+                    <p className="fw display-6 titolo2" style={{ color: "black", fontSize: "2rem" }}> The Private and Chain-Agnostic Oracle </p>
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-left justify-content-xxl-start offset">
                         <div className="row">
                         <div className="col d-none d-md-block">
@@ -164,7 +166,7 @@ const Home = () => {
             </div>
         </div>
         </section>
-        <section className="bg-light py-5 teamSection" id="exchanges" style={{height:"900px",overflow:"hidden"}}>
+        <section className="bg-light py-5 teamSection" style={{height:"900px",overflow:"hidden"}}>
        
             <div>
                 <div className="cards mx-auto" style={{marginTop:"-100px"}}>
