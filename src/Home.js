@@ -1,5 +1,5 @@
 import React,{useEffect, useRef} from "react"
-
+import FAQSection from "./FAQSection"
 import nonkyc from "./assets/nonkyclogoicon.png"
 import tradeOgre from "./assets/tradeOgre.png"
 import coin from "./assets/coin2.png"
@@ -42,7 +42,7 @@ const Home = () => {
     return ( 
         <main className="flex-shrink-0">
             <header className="py-5 inizio" style={{ overflow: "hidden", position: "relative" }}>
-            <div className="container px-5 pb-5">
+            <div className="container px-3 pb-5">
                 <div className="row gx-3 align-items-center">
         
                 <div className="col-12 col-md-8  col-sm-8">
@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4  col-sm-4">
+                <div className="col-12 col-md-4 col-sm-4">
                     <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                     <div className="profile">
                         <img className="profile-img shape" src={imgHome}></img>
@@ -217,7 +217,10 @@ const Home = () => {
         </div>
         </section>
 
-
+        <section id="FAQsection">
+            <FAQSection></FAQSection>
+        
+        </section>
 
     </main>
 

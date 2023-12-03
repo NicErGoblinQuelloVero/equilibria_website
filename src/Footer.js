@@ -5,7 +5,7 @@ import telegramLogo from './assets/telegramBlack.png'
 const Footer = () => {
     return (
         <div  style={{overflow:'hidden'}}>
-            <footer className=" bg-light py-4 mt-auto row row-cols-1 row-cols-sm-2 row-cols-md-5 ">
+            <footer className=" bg-white py-4 mt-auto row row-cols-1 row-cols-sm-2 row-cols-md-5 ">
              
                 <div className="col mb-3 socialFooter" style={{textAlign:'left',marginLeft:"80px"}} >
 

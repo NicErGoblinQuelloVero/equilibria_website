@@ -59,6 +59,9 @@ code {
   transform: translateY(0);
 }
 
+.sx-layout{
+  text-align: left;
+}
 
 
 
