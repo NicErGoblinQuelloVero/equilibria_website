@@ -13,6 +13,7 @@ const Navbar = () => {
                             <li className="nav-item"><a className="nav-link" href="https://explorer.equilibriacc.com/">Explorer</a></li>
                             <li className="nav-item"><a className="nav-link" href="https://github.com/EquilibriaCC/equilibria-wallet/releases">Wallets</a></li>
                             <li className="nav-item"><a className="nav-link" href="https://github.com/EquilibriaCC/Equilibria/wiki">Documentation</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#FAQsection">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
