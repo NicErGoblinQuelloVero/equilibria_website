@@ -61,7 +61,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="ArqTras"
                         desc="Dev support"
-                        description=" Versatile team member serving as developer, tester, and support specialist. Embracing anonymity, I contribute to seamless collaboration across project phases."
+                        description=" Skilled team member serving as developer, tester, and support specialist. Embracing anonymity, I contribute to seamless collaboration across project phases."
                       />
                     </div>
                     <div className="col-md-4 col-sm-6 mb-4">
@@ -118,7 +118,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="ArqTras"
                         desc="Dev support"
-                        description=" Versatile team member serving as developer, tester, and support specialist. Embracing anonymity, I contribute to seamless collaboration across project phases."
+                        description=" Skilled team member serving as developer, tester, and support specialist. Embracing anonymity, I contribute to seamless collaboration across project phases."
                       />
                     </div>
                     {/* Add more cards as needed */}
