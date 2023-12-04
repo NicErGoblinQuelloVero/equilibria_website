@@ -81,8 +81,6 @@ const FAQSection = () => {
                 </div>
 
 
-
-
                 <div className="accordion-item customItemFAQ">
                   <h2 className="accordion-header custom-faq-item " id="faqHeading4">
                     <button className="accordion-button FAQbutton " type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="true" aria-controls="faqCollapse4">
@@ -95,7 +93,21 @@ const FAQSection = () => {
                     </div>
                   </div>
                 </div>
-            
+
+                <div className="accordion-item customItemFAQ">
+                  <h2 className="accordion-header custom-faq-item " id="faqHeading6">
+                    <button className="accordion-button FAQbutton " type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="true" aria-controls="faqCollapse6">
+                      How do I configure and operate a node?
+                    </button>
+                  </h2>
+                  <div id="faqCollapse6" className="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                    <div className="accordion-body sx-layout ">
+                      To set up and run a node, refer to our comprehensive documentation <a href="https://github.com/EquilibriaCC/Equilibria/wiki/How-to-Setup-an-Equilibria-Oracle-Node">here</a>. It provides step-by-step instructions for a seamless setup process.
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
           </div>

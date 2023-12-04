@@ -179,6 +179,9 @@ h2, .h2 {
   .inc:hover {
     transform: scale(1.1);
   }
+  .carousel-indicators{
+    transform: translateY(35px) !important;
+  }
 }
 @media (max-width: 1700px) {
   .titolo{
@@ -304,13 +307,13 @@ h2, .h2 {
  
   .carousel-control-prev{
     margin-top: 60px !important;
-    margin-left: -5px !important;
-    width: 10px  !important;
+    margin-left: 5px !important;
+    width: 30px  !important;
   }
   .carousel-control-next{
     margin-top: 60px !important;
-    margin-right: -5px !important;
-    width: 10px  !important;
+    margin-right: 5px !important;
+    width: 30px  !important;
   }
   .cardHome{
     width: 85%;
@@ -372,10 +375,44 @@ h2, .h2 {
   .logoExchange{
     width: 75% !important;
   }
+  .carousel-indicators{
+    transform: translateY(-10px) !important;
+  }
 }
-.customItemFAQ{
 
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  z-index: 15;
+ 
 }
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px !important;
+  height: 15px !important;
+  margin: 0 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: black !important; /* Colore di base degli indicatori */
+  border-radius: 50%;
+  border: 1px solid #fff; /* Bordo degli indicatori */
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  background-color: #fff; /* Colore dell'indicatore attivo */
+}
+
+
+
+
+
 .FAQbutton{
   border-top: #000 !important;
   border-color: #000 !important;
