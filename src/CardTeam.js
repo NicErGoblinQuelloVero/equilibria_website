@@ -16,7 +16,8 @@ function CardTeam (props){
                         <img src={logo} style={{width:"6rem"}} className="mt-3" alt=""></img>
                             <h3 className="fw-bolder mt-3">{props.name}</h3>
                             <h3 className="fw-light" style={{fontSize:"1.2rem"}}>{props.desc}</h3>
-                           
+                        
+                            <p className="fw teamDesc" style={{fontSize:"1.2rem",marginTop:"20px"}}>{props.description}</p>
                         </div>
                         
                      

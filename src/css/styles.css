@@ -214,6 +214,11 @@ h2, .h2 {
   .profile-img.shape{
     margin-left: -50px;
  }
+ .sectionShape2{
+  margin-left:700px !important;
+  margin-top: -600px !important;
+  }
+ 
  
 }
 @media (max-width: 1397px) {
@@ -232,7 +237,9 @@ h2, .h2 {
   .loghi{
     width: 50% !important;
   }
- 
+  .teamDesc{
+    font-size: 1rem !important;
+  }
 }
 @media (max-width: 990px) {
   .bottoneCard{
@@ -274,11 +281,15 @@ h2, .h2 {
       width: 160%;
       height: auto !important;
     }
-    
+    .teamDesc{
+      font-size: 0.7rem !important;
+    }
 }
 
 @media (max-width: 572px) {
-  
+  .teamDesc{
+    font-size: 1rem !important;
+  }
   .sectionShape2{
     margin-top: -600px !important;
     margin-left: -50px !important;
