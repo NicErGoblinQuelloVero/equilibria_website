@@ -34,7 +34,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="John - AdminXEQ"
                         desc="Team leader and privacy enthusiast"
-                        description= "Passionate team leader and privacy advocate with a focus on project ownership. Core developer with a commitment to creating secure and privacy-centric solutions."
+                        description= "Passionate team leader and privacy advocate with a focus on project ownership. Core developer with a commitment to creating secure and privacy-oriented solutions."
                       />
                     </div>
                     <div className="col-md-4 col-sm-6 mb-4">
@@ -42,7 +42,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="Michal vel M@lbit"
                         desc="Core developer"
-                        description="Anonymous core developer dedicated to shaping project foundations through coding expertise."
+                        description="Core developer dedicated to shaping project foundations through coding expertise."
                       />
                     </div>
                     <div className="col-md-2"></div>
@@ -69,7 +69,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="Dev"
                         desc="Contractors"
-                        description="Anonymous contractors skilled in C++, Node, React, Go, and Python, providing versatile expertise for projects"
+                        description="Anonymous contractors skilled in C++, Node, React, Go, Solidity and Python, providing versatile expertise for projects"
                       />
                     </div>
                     <div className="col-md-2"></div>
@@ -86,7 +86,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="John - AdminXEQ"
                         desc="Team leader and privacy enthusiast"
-                        description= "Passionate team leader and privacy advocate with a focus on project ownership. Core developer with a commitment to creating secure and privacy-centric solutions."
+                        description= "Passionate team leader and privacy advocate with a focus on project ownership. Core developer with a commitment to creating secure and privacy-oriented solutions."
                       />
                     </div>
                     {/* Add more cards as needed */}
@@ -102,7 +102,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="Michal vel M@lbit"
                         desc="Core developer"
-                        description="Anonymous core developer dedicated to shaping project foundations through coding expertise."
+                        description="Core developer dedicated to shaping project foundations through coding expertise."
                       />
                     </div>
                     {/* Add more cards as needed */}
@@ -134,7 +134,7 @@ const TeamCarousel = () => {
                         logo="l3.png"
                         name="Dev"
                         desc="Contractors"
-                        description="Anonymous contractors skilled in C++, Node, React, Go, and Python, providing versatile expertise for projects"
+                        description="Anonymous contractors skilled in C++, Node, React, Go, Solidity and Python, providing versatile expertise for projects"
                       />
                     </div>
                     {/* Add more cards as needed */}
