@@ -9,7 +9,7 @@ import imgHome from "./assets/4o.png"
 import Card from "./Card"
 import CardTeam from "./CardTeam"
 import TeamCarousel from "./TeamCarousel"
-
+import xeggex from './assets/xeggex.png'
 
 import x from "./assets/x.png"
 import discord from "./assets/discord.png"
@@ -199,7 +199,16 @@ const Home = () => {
                         </div>
                         </div>
                     </div>
-                    <div className="col-md"></div>
+                    
+                    <div className="col-md">
+                    <div className="card mt-4" style={{border:"none"}}>
+                        <img  src={xeggex} style={{width:'85%',borderRadius:"50px"}} className="mx-auto logoExchange"></img>
+                        <div className="card-body">
+                            <h2 className="fw-light mb-4 ">XeggeX</h2>
+                            <a className="btn btn-primary btn-lg px-5 py-3  fw-bolder inc bottoneCard" href="https://xeggex.com/market/XEQ_USDT" style={{marginTop:"10px"}}><p className="cText">Buy now</p></a>
+                        </div>
+                        </div>
+                    </div>
                     <div className="col-md">
                         <div className="card mt-4" style={{border:"none"}}>
                         <img  src={nonkyc} style={{width:'85%'}} className="mx-auto logoExchange"></img>
